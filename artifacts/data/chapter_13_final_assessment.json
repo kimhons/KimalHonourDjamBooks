@@ -1,0 +1,54 @@
+{
+  "chapter_title": "Unknown Chapter",
+  "chapter_num": 13,
+  "word_count": 8251,
+  "seo_score": 90,
+  "quality_score": 82,
+  "meets_word_count_threshold": true,
+  "meets_seo_threshold": false,
+  "meets_quality_threshold": false,
+  "top_keywords": [
+    [
+      "energy",
+      94
+    ],
+    [
+      "emotional",
+      36
+    ],
+    [
+      "stress",
+      31
+    ],
+    [
+      "focus",
+      28
+    ],
+    [
+      "practice",
+      27
+    ],
+    [
+      "internal",
+      27
+    ],
+    [
+      "response",
+      26
+    ],
+    [
+      "practices",
+      25
+    ],
+    [
+      "task",
+      23
+    ],
+    [
+      "system",
+      21
+    ]
+  ],
+  "has_storytelling": true,
+  "has_practical_application": true
+}

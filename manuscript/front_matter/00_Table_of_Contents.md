@@ -1,0 +1,20 @@
+# Why Caring Less Makes You Unstoppable
+## Table of Contents
+
+- [Introduction: The Power of Being Unbothered](#introduction)
+- [Chapter 1: The Control Illusion](#chapter-1)
+- [Chapter 2: The Energy Drain](#chapter-2)
+- [Chapter 3: The Flow Equation](#chapter-3)
+- [Chapter 4: The Detachment Principle](#chapter-4)
+- [Chapter 5: The Unbothered Mindset](#chapter-5)
+- [Chapter 6: The Frictionless Relationship Rule](#chapter-6)
+- [Chapter 7: The Pattern Recursion Algorithm](#chapter-7)
+- [Chapter 8: The Magnetic Influence Coefficient](#chapter-8)
+- [Chapter 9: The Selective Investment Principle](#chapter-9)
+- [Chapter 10: The Flow & Focus Rule](#chapter-10)
+- [Chapter 11: The Null Value Principle](#chapter-11)
+- [Chapter 12: The Unattachment Mindset](#chapter-12)
+- [Chapter 13: The Energy Reclamation Protocol](#chapter-13)
+- [Chapter 14: The Ultimate Mindset Shift](#chapter-14)
+- [Chapter 15: The Unbothered Manifesto](#chapter-15)
+- [Conclusion: Your Unbothered Era](#conclusion)
