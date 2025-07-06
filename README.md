@@ -1,21 +1,23 @@
-# Kimal Honour Djam Books
+# Why Caring Less Makes You Unstoppable: The Unbothered Code
 
-This repository serves as the central hub for all books and book series by Kimal Honour Djam. The repository is organized using a branch-based structure where each book or book series has its own dedicated branch.
+## Book Overview
+
+A groundbreaking guide that reveals how strategic detachment—caring less about what doesn't matter—is the key to unprecedented focus, clarity, and effectiveness in an overwhelmed world. Through research-backed strategies and practical wisdom, readers will discover how to break free from digital captivity and reclaim their most valuable resource: attention.
+
+## Key Themes
+
+- **Strategic Detachment**: Learning to let go of what drains you while stepping into your true power
+- **Mental Freedom**: Breaking free from the exhausting cycle of reactivity, rumination, and resistance
+- **Focused Attention**: Mastering the art of presence in a world designed to fragment your focus
+- **Digital Minimalism**: Reclaiming control from technology and digital overwhelm
+- **Neurological Efficiency**: Understanding and optimizing your brain's architecture for maximum effectiveness
 
 ## Repository Structure
 
-The repository is organized as follows:
-
-- **main**: Contains this README and general information about the repository structure
-- **unbothered-code**: Contains "Why Caring Less Makes You Unstoppable: The Unbothered Code" book and related materials
-- **future-books**: Reserved for upcoming book projects (placeholder)
-
-## Branch Organization
-
-Each book branch follows a consistent internal structure:
+This branch contains all content related to "Why Caring Less Makes You Unstoppable: The Unbothered Code" organized as follows:
 
 ```
-book-name/
+unbothered-code/
 ├── manuscript/
 │   ├── chapters/
 │   │   ├── 00_introduction.md
@@ -53,38 +55,24 @@ book-name/
 
 ## Chapter Versioning
 
-Each chapter in the manuscript can have multiple versions to track its evolution:
+Each chapter in the manuscript has multiple versions to track its evolution:
 
-- **Current Version**: The latest approved version of each chapter is stored directly in the `chapters/` directory (e.g., `01_chapter_1.md`)
+- **Current Version**: The latest approved version of each chapter is stored directly in the `chapters/` directory
 - **Historical Versions**: Previous iterations are stored in the `chapters/versions/` directory, organized by chapter and version number
-- **Naming Convention**: Version files follow the pattern `vX_description.md` where X is the version number and description indicates the version status (e.g., draft, revised, final)
+- **Naming Convention**: Version files follow the pattern `vX_description.md` where X is the version number
 
-This versioning system allows for tracking the evolution of each chapter while maintaining a clean directory structure for the current manuscript.
+## Additional Components
 
-## Books
+This book includes several additional components that extend its core content:
 
-### Why Caring Less Makes You Unstoppable: The Unbothered Code
-
-**Branch**: `unbothered-code`
-
-A groundbreaking guide that reveals how strategic detachment—caring less about what doesn't matter—is the key to unprecedented focus, clarity, and effectiveness in an overwhelmed world. Through research-backed strategies and practical wisdom, readers will discover how to break free from digital captivity and reclaim their most valuable resource: attention.
-
-**Key Themes**:
-- Strategic detachment
-- Mental freedom
-- Focused attention
-- Digital minimalism
-- Neurological efficiency
-
-**Additional Components**:
 - **Mastermind Course**: Interactive learning experience expanding on the book's principles
 - **Podcast**: Audio discussions and interviews exploring strategic detachment concepts
 - **Newsletter**: Regular articles with practical applications and case studies
 - **Artifacts**: Worksheets, templates, and diagrams that supplement the book content
 
-## Contributing
+## Author
 
-This repository is primarily for organization and backup purposes. For inquiries about collaboration or contributions, please contact the author directly.
+Kimal Honour Djam is a Consulting Radiation Oncology Physicist with Precision Oncology Solutions in Delaware, USA. He holds a PhD(c) in Medical Physics, an MS in Medical Physics, MS Physics, MA Education Administration and has completed advanced certificate in Applied Data Science and Analytics at MIT. His background in scientific analysis and data-driven approaches informs his unique perspective on strategic detachment and mental freedom.
 
 ## License
 
