@@ -49,6 +49,12 @@ unbothered-code/
 │   ├── worksheets/
 │   ├── templates/
 │   └── diagrams/
+├── social_media/
+│   ├── twitter/
+│   ├── instagram/
+│   ├── linkedin/
+│   ├── facebook/
+│   └── tiktok/
 └── website/
     └── content/
 ```
@@ -69,6 +75,7 @@ This book includes several additional components that extend its core content:
 - **Podcast**: Audio discussions and interviews exploring strategic detachment concepts
 - **Newsletter**: Regular articles with practical applications and case studies
 - **Artifacts**: Worksheets, templates, and diagrams that supplement the book content
+- **Social Media Marketing**: Platform-specific content for Twitter, Instagram, LinkedIn, Facebook, and TikTok
 
 ## Author
 
