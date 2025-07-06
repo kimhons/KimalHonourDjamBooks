@@ -1,0 +1,660 @@
+{
+  "chapter_scores": {
+    "1": {
+      "counterintuitiveness": {
+        "paradigm_challenge": 8,
+        "paradoxical_insight": 9,
+        "section_score": 17
+      },
+      "transformational_impact": {
+        "paradigm_shifting_power": 8,
+        "actionable_wisdom": 9,
+        "section_score": 17
+      },
+      "content_excellence": {
+        "conceptual_clarity": 9,
+        "evidence_integration": 7,
+        "logical_flow": 8,
+        "section_score": 15
+      },
+      "narrative_craft": {
+        "opening_hook_strength": 9,
+        "story_integration": 9,
+        "prose_quality": 8,
+        "section_score": 15
+      },
+      "wisdom_integration": {
+        "ancient_wisdom_connection": 6,
+        "cross_cultural_synthesis": 5,
+        "section_score": 10
+      },
+      "practical_application": {
+        "action_step_clarity": 9,
+        "implementation_system": 6,
+        "section_score": 10
+      },
+      "quotability": {
+        "memorable_statements": 10,
+        "section_score": 5.0
+      },
+      "social_media_potential": {
+        "shareability": 9,
+        "section_score": 4.5
+      },
+      "total_score": 13.8
+    },
+    "2": {
+      "counterintuitiveness": {
+        "paradigm_challenge": 8,
+        "paradoxical_insight": 7,
+        "section_score": 15
+      },
+      "transformational_impact": {
+        "paradigm_shifting_power": 10,
+        "actionable_wisdom": 9,
+        "section_score": 19
+      },
+      "content_excellence": {
+        "conceptual_clarity": 9,
+        "evidence_integration": 7,
+        "logical_flow": 8,
+        "section_score": 15
+      },
+      "narrative_craft": {
+        "opening_hook_strength": 9,
+        "story_integration": 9,
+        "prose_quality": 8,
+        "section_score": 15
+      },
+      "wisdom_integration": {
+        "ancient_wisdom_connection": 6,
+        "cross_cultural_synthesis": 5,
+        "section_score": 10
+      },
+      "practical_application": {
+        "action_step_clarity": 9,
+        "implementation_system": 6,
+        "section_score": 10
+      },
+      "quotability": {
+        "memorable_statements": 10,
+        "section_score": 5.0
+      },
+      "social_media_potential": {
+        "shareability": 9,
+        "section_score": 4.5
+      },
+      "total_score": 13.8
+    },
+    "3": {
+      "counterintuitiveness": {
+        "paradigm_challenge": 8,
+        "paradoxical_insight": 9,
+        "section_score": 17
+      },
+      "transformational_impact": {
+        "paradigm_shifting_power": 10,
+        "actionable_wisdom": 9,
+        "section_score": 19
+      },
+      "content_excellence": {
+        "conceptual_clarity": 9,
+        "evidence_integration": 7,
+        "logical_flow": 8,
+        "section_score": 15
+      },
+      "narrative_craft": {
+        "opening_hook_strength": 9,
+        "story_integration": 9,
+        "prose_quality": 8,
+        "section_score": 15
+      },
+      "wisdom_integration": {
+        "ancient_wisdom_connection": 6,
+        "cross_cultural_synthesis": 5,
+        "section_score": 10
+      },
+      "practical_application": {
+        "action_step_clarity": 9,
+        "implementation_system": 9,
+        "section_score": 10
+      },
+      "quotability": {
+        "memorable_statements": 10,
+        "section_score": 5.0
+      },
+      "social_media_potential": {
+        "shareability": 9,
+        "section_score": 4.5
+      },
+      "total_score": 14.2
+    },
+    "4": {
+      "counterintuitiveness": {
+        "paradigm_challenge": 8,
+        "paradoxical_insight": 9,
+        "section_score": 17
+      },
+      "transformational_impact": {
+        "paradigm_shifting_power": 10,
+        "actionable_wisdom": 9,
+        "section_score": 19
+      },
+      "content_excellence": {
+        "conceptual_clarity": 9,
+        "evidence_integration": 7,
+        "logical_flow": 8,
+        "section_score": 15
+      },
+      "narrative_craft": {
+        "opening_hook_strength": 9,
+        "story_integration": 9,
+        "prose_quality": 8,
+        "section_score": 15
+      },
+      "wisdom_integration": {
+        "ancient_wisdom_connection": 9,
+        "cross_cultural_synthesis": 5,
+        "section_score": 10
+      },
+      "practical_application": {
+        "action_step_clarity": 9,
+        "implementation_system": 6,
+        "section_score": 10
+      },
+      "quotability": {
+        "memorable_statements": 10,
+        "section_score": 5.0
+      },
+      "social_media_potential": {
+        "shareability": 9,
+        "section_score": 4.5
+      },
+      "total_score": 14.2
+    },
+    "5": {
+      "counterintuitiveness": {
+        "paradigm_challenge": 8,
+        "paradoxical_insight": 7,
+        "section_score": 15
+      },
+      "transformational_impact": {
+        "paradigm_shifting_power": 8,
+        "actionable_wisdom": 10,
+        "section_score": 18
+      },
+      "content_excellence": {
+        "conceptual_clarity": 8,
+        "evidence_integration": 9,
+        "logical_flow": 8,
+        "section_score": 15
+      },
+      "narrative_craft": {
+        "opening_hook_strength": 9,
+        "story_integration": 9,
+        "prose_quality": 8,
+        "section_score": 15
+      },
+      "wisdom_integration": {
+        "ancient_wisdom_connection": 6,
+        "cross_cultural_synthesis": 5,
+        "section_score": 10
+      },
+      "practical_application": {
+        "action_step_clarity": 9,
+        "implementation_system": 6,
+        "section_score": 10
+      },
+      "quotability": {
+        "memorable_statements": 10,
+        "section_score": 5.0
+      },
+      "social_media_potential": {
+        "shareability": 9,
+        "section_score": 4.5
+      },
+      "total_score": 13.6
+    },
+    "6": {
+      "counterintuitiveness": {
+        "paradigm_challenge": 8,
+        "paradoxical_insight": 9,
+        "section_score": 17
+      },
+      "transformational_impact": {
+        "paradigm_shifting_power": 10,
+        "actionable_wisdom": 10,
+        "section_score": 20
+      },
+      "content_excellence": {
+        "conceptual_clarity": 9,
+        "evidence_integration": 9,
+        "logical_flow": 8,
+        "section_score": 15
+      },
+      "narrative_craft": {
+        "opening_hook_strength": 9,
+        "story_integration": 9,
+        "prose_quality": 8,
+        "section_score": 15
+      },
+      "wisdom_integration": {
+        "ancient_wisdom_connection": 6,
+        "cross_cultural_synthesis": 5,
+        "section_score": 10
+      },
+      "practical_application": {
+        "action_step_clarity": 9,
+        "implementation_system": 6,
+        "section_score": 10
+      },
+      "quotability": {
+        "memorable_statements": 10,
+        "section_score": 5.0
+      },
+      "social_media_potential": {
+        "shareability": 9,
+        "section_score": 4.5
+      },
+      "total_score": 14.4
+    },
+    "7": {
+      "counterintuitiveness": {
+        "paradigm_challenge": 8,
+        "paradoxical_insight": 7,
+        "section_score": 15
+      },
+      "transformational_impact": {
+        "paradigm_shifting_power": 10,
+        "actionable_wisdom": 10,
+        "section_score": 20
+      },
+      "content_excellence": {
+        "conceptual_clarity": 9,
+        "evidence_integration": 9,
+        "logical_flow": 8,
+        "section_score": 15
+      },
+      "narrative_craft": {
+        "opening_hook_strength": 9,
+        "story_integration": 9,
+        "prose_quality": 8,
+        "section_score": 15
+      },
+      "wisdom_integration": {
+        "ancient_wisdom_connection": 6,
+        "cross_cultural_synthesis": 5,
+        "section_score": 10
+      },
+      "practical_application": {
+        "action_step_clarity": 9,
+        "implementation_system": 6,
+        "section_score": 10
+      },
+      "quotability": {
+        "memorable_statements": 10,
+        "section_score": 5.0
+      },
+      "social_media_potential": {
+        "shareability": 9,
+        "section_score": 4.5
+      },
+      "total_score": 14.0
+    },
+    "8": {
+      "counterintuitiveness": {
+        "paradigm_challenge": 8,
+        "paradoxical_insight": 7,
+        "section_score": 15
+      },
+      "transformational_impact": {
+        "paradigm_shifting_power": 8,
+        "actionable_wisdom": 9,
+        "section_score": 17
+      },
+      "content_excellence": {
+        "conceptual_clarity": 9,
+        "evidence_integration": 9,
+        "logical_flow": 8,
+        "section_score": 15
+      },
+      "narrative_craft": {
+        "opening_hook_strength": 9,
+        "story_integration": 9,
+        "prose_quality": 8,
+        "section_score": 15
+      },
+      "wisdom_integration": {
+        "ancient_wisdom_connection": 6,
+        "cross_cultural_synthesis": 5,
+        "section_score": 10
+      },
+      "practical_application": {
+        "action_step_clarity": 9,
+        "implementation_system": 6,
+        "section_score": 10
+      },
+      "quotability": {
+        "memorable_statements": 10,
+        "section_score": 5.0
+      },
+      "social_media_potential": {
+        "shareability": 9,
+        "section_score": 4.5
+      },
+      "total_score": 13.4
+    },
+    "9": {
+      "counterintuitiveness": {
+        "paradigm_challenge": 8,
+        "paradoxical_insight": 7,
+        "section_score": 15
+      },
+      "transformational_impact": {
+        "paradigm_shifting_power": 8,
+        "actionable_wisdom": 9,
+        "section_score": 17
+      },
+      "content_excellence": {
+        "conceptual_clarity": 8,
+        "evidence_integration": 7,
+        "logical_flow": 8,
+        "section_score": 15
+      },
+      "narrative_craft": {
+        "opening_hook_strength": 9,
+        "story_integration": 9,
+        "prose_quality": 8,
+        "section_score": 15
+      },
+      "wisdom_integration": {
+        "ancient_wisdom_connection": 6,
+        "cross_cultural_synthesis": 5,
+        "section_score": 10
+      },
+      "practical_application": {
+        "action_step_clarity": 9,
+        "implementation_system": 6,
+        "section_score": 10
+      },
+      "quotability": {
+        "memorable_statements": 10,
+        "section_score": 5.0
+      },
+      "social_media_potential": {
+        "shareability": 9,
+        "section_score": 4.5
+      },
+      "total_score": 13.4
+    },
+    "10": {
+      "counterintuitiveness": {
+        "paradigm_challenge": 8,
+        "paradoxical_insight": 7,
+        "section_score": 15
+      },
+      "transformational_impact": {
+        "paradigm_shifting_power": 8,
+        "actionable_wisdom": 10,
+        "section_score": 18
+      },
+      "content_excellence": {
+        "conceptual_clarity": 8,
+        "evidence_integration": 9,
+        "logical_flow": 8,
+        "section_score": 15
+      },
+      "narrative_craft": {
+        "opening_hook_strength": 9,
+        "story_integration": 9,
+        "prose_quality": 8,
+        "section_score": 15
+      },
+      "wisdom_integration": {
+        "ancient_wisdom_connection": 6,
+        "cross_cultural_synthesis": 5,
+        "section_score": 10
+      },
+      "practical_application": {
+        "action_step_clarity": 9,
+        "implementation_system": 6,
+        "section_score": 10
+      },
+      "quotability": {
+        "memorable_statements": 10,
+        "section_score": 5.0
+      },
+      "social_media_potential": {
+        "shareability": 9,
+        "section_score": 4.5
+      },
+      "total_score": 13.6
+    },
+    "11": {
+      "counterintuitiveness": {
+        "paradigm_challenge": 8,
+        "paradoxical_insight": 7,
+        "section_score": 15
+      },
+      "transformational_impact": {
+        "paradigm_shifting_power": 8,
+        "actionable_wisdom": 9,
+        "section_score": 17
+      },
+      "content_excellence": {
+        "conceptual_clarity": 8,
+        "evidence_integration": 9,
+        "logical_flow": 8,
+        "section_score": 15
+      },
+      "narrative_craft": {
+        "opening_hook_strength": 9,
+        "story_integration": 9,
+        "prose_quality": 8,
+        "section_score": 15
+      },
+      "wisdom_integration": {
+        "ancient_wisdom_connection": 6,
+        "cross_cultural_synthesis": 5,
+        "section_score": 10
+      },
+      "practical_application": {
+        "action_step_clarity": 9,
+        "implementation_system": 6,
+        "section_score": 10
+      },
+      "quotability": {
+        "memorable_statements": 10,
+        "section_score": 5.0
+      },
+      "social_media_potential": {
+        "shareability": 9,
+        "section_score": 4.5
+      },
+      "total_score": 13.4
+    },
+    "12": {
+      "counterintuitiveness": {
+        "paradigm_challenge": 8,
+        "paradoxical_insight": 7,
+        "section_score": 15
+      },
+      "transformational_impact": {
+        "paradigm_shifting_power": 10,
+        "actionable_wisdom": 10,
+        "section_score": 20
+      },
+      "content_excellence": {
+        "conceptual_clarity": 8,
+        "evidence_integration": 9,
+        "logical_flow": 8,
+        "section_score": 15
+      },
+      "narrative_craft": {
+        "opening_hook_strength": 9,
+        "story_integration": 9,
+        "prose_quality": 8,
+        "section_score": 15
+      },
+      "wisdom_integration": {
+        "ancient_wisdom_connection": 6,
+        "cross_cultural_synthesis": 5,
+        "section_score": 10
+      },
+      "practical_application": {
+        "action_step_clarity": 9,
+        "implementation_system": 6,
+        "section_score": 10
+      },
+      "quotability": {
+        "memorable_statements": 10,
+        "section_score": 5.0
+      },
+      "social_media_potential": {
+        "shareability": 9,
+        "section_score": 4.5
+      },
+      "total_score": 14.0
+    },
+    "13": {
+      "counterintuitiveness": {
+        "paradigm_challenge": 8,
+        "paradoxical_insight": 7,
+        "section_score": 15
+      },
+      "transformational_impact": {
+        "paradigm_shifting_power": 10,
+        "actionable_wisdom": 9,
+        "section_score": 19
+      },
+      "content_excellence": {
+        "conceptual_clarity": 8,
+        "evidence_integration": 9,
+        "logical_flow": 8,
+        "section_score": 15
+      },
+      "narrative_craft": {
+        "opening_hook_strength": 9,
+        "story_integration": 9,
+        "prose_quality": 8,
+        "section_score": 15
+      },
+      "wisdom_integration": {
+        "ancient_wisdom_connection": 6,
+        "cross_cultural_synthesis": 5,
+        "section_score": 10
+      },
+      "practical_application": {
+        "action_step_clarity": 9,
+        "implementation_system": 9,
+        "section_score": 10
+      },
+      "quotability": {
+        "memorable_statements": 10,
+        "section_score": 5.0
+      },
+      "social_media_potential": {
+        "shareability": 9,
+        "section_score": 4.5
+      },
+      "total_score": 13.8
+    },
+    "14": {
+      "counterintuitiveness": {
+        "paradigm_challenge": 8,
+        "paradoxical_insight": 9,
+        "section_score": 17
+      },
+      "transformational_impact": {
+        "paradigm_shifting_power": 8,
+        "actionable_wisdom": 10,
+        "section_score": 18
+      },
+      "content_excellence": {
+        "conceptual_clarity": 9,
+        "evidence_integration": 9,
+        "logical_flow": 8,
+        "section_score": 15
+      },
+      "narrative_craft": {
+        "opening_hook_strength": 9,
+        "story_integration": 9,
+        "prose_quality": 8,
+        "section_score": 15
+      },
+      "wisdom_integration": {
+        "ancient_wisdom_connection": 6,
+        "cross_cultural_synthesis": 5,
+        "section_score": 10
+      },
+      "practical_application": {
+        "action_step_clarity": 9,
+        "implementation_system": 6,
+        "section_score": 10
+      },
+      "quotability": {
+        "memorable_statements": 10,
+        "section_score": 5.0
+      },
+      "social_media_potential": {
+        "shareability": 9,
+        "section_score": 4.5
+      },
+      "total_score": 14.0
+    },
+    "15": {
+      "counterintuitiveness": {
+        "paradigm_challenge": 8,
+        "paradoxical_insight": 7,
+        "section_score": 15
+      },
+      "transformational_impact": {
+        "paradigm_shifting_power": 10,
+        "actionable_wisdom": 10,
+        "section_score": 20
+      },
+      "content_excellence": {
+        "conceptual_clarity": 8,
+        "evidence_integration": 9,
+        "logical_flow": 8,
+        "section_score": 15
+      },
+      "narrative_craft": {
+        "opening_hook_strength": 9,
+        "story_integration": 9,
+        "prose_quality": 8,
+        "section_score": 15
+      },
+      "wisdom_integration": {
+        "ancient_wisdom_connection": 6,
+        "cross_cultural_synthesis": 5,
+        "section_score": 10
+      },
+      "practical_application": {
+        "action_step_clarity": 9,
+        "implementation_system": 6,
+        "section_score": 10
+      },
+      "quotability": {
+        "memorable_statements": 10,
+        "section_score": 5.0
+      },
+      "social_media_potential": {
+        "shareability": 9,
+        "section_score": 4.5
+      },
+      "total_score": 14.0
+    }
+  },
+  "average_scores": {
+    "counterintuitiveness": 15.7,
+    "transformational_impact": 18.5,
+    "content_excellence": 15.0,
+    "narrative_craft": 15.0,
+    "wisdom_integration": 10.0,
+    "practical_application": 10.0,
+    "quotability": 5.0,
+    "social_media_potential": 4.5,
+    "total_score": 13.8
+  }
+}
