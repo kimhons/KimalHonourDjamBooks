@@ -1,0 +1,2025 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pain Alchemy - An Engineer's Mindset for Turning Life's Setbacks into Power</title>
+    <meta name="description" content="Transform your setbacks into comebacks with Pain Alchemy. Pre-order now and get 35% off the exclusive masterclass + weekly motivation newsletter. 25 days until launch!">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        /* CSS Reset & Variables */
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        :root {
+            /* Enhanced Color Palette Based on Book Cover */
+            --primary-dark: #0a1929;
+            --secondary-dark: #132f4c;
+            --accent-red: #ff3838;
+            --accent-gold: #ebc94a;
+            --accent-green: #4caf50;
+            --accent-orange: #ff6b35;
+            --white: #ffffff;
+            --gray-50: #fafafa;
+            --gray-100: #f5f5f5;
+            --gray-200: #eeeeee;
+            --gray-300: #e0e0e0;
+            --gray-600: #757575;
+            --gray-700: #616161;
+            --gray-800: #424242;
+            --gray-900: #212121;
+            
+            /* Gradients for Visual Impact */
+            --gradient-hero: linear-gradient(135deg, #0a1929 0%, #132f4c 100%);
+            --gradient-cta: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
+            --gradient-gold: linear-gradient(135deg, #ebc94a 0%, #ffc107 100%);
+            --gradient-accent: linear-gradient(135deg, #ff3838 0%, #ff6b35 100%);
+            
+            /* Typography */
+            --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            font-family: var(--font-primary);
+            line-height: 1.6;
+            color: var(--gray-900);
+            background-color: var(--white);
+            overflow-x: hidden;
+        }
+        
+        /* Container System */
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+        
+        /* Typography Scale */
+        .display-1 {
+            font-size: clamp(2.5rem, 8vw, 4.5rem);
+            font-weight: 900;
+            line-height: 1.1;
+            letter-spacing: -0.02em;
+        }
+        
+        .display-2 {
+            font-size: clamp(1.8rem, 5vw, 3rem);
+            font-weight: 800;
+            line-height: 1.2;
+        }
+        
+        .subtitle {
+            font-size: clamp(1.1rem, 3vw, 1.5rem);
+            font-weight: 500;
+            line-height: 1.4;
+        }
+        
+        /* Header */
+        .header {
+            background: var(--gradient-hero);
+            color: var(--white);
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.3);
+            backdrop-filter: blur(10px);
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--accent-orange);
+        }
+        
+        .logo .pain {
+            color: var(--accent-red);
+        }
+        
+        .logo .alchemy {
+            color: var(--accent-gold);
+        }
+        
+        .countdown-timer {
+            background: rgba(255, 107, 53, 0.2);
+            padding: 10px 20px;
+            border-radius: 25px;
+            border: 1px solid var(--accent-orange);
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            animation: pulse 2s infinite;
+        }
+        
+        .countdown-timer i {
+            color: var(--accent-orange);
+        }
+        
+        .countdown-timer span {
+            color: var(--accent-gold);
+            font-weight: 700;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: var(--gradient-hero);
+            color: var(--white);
+            padding: 6rem 0 4rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            min-height: 90vh;
+            display: flex;
+            align-items: center;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M 10 0 L 0 0 0 10" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>');
+            opacity: 0.3;
+            z-index: 0;
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 2;
+        }
+        
+        .hero-badge {
+            display: inline-block;
+            background: rgba(255, 107, 53, 0.2);
+            color: var(--accent-orange);
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-bottom: 2rem;
+            border: 1px solid rgba(255, 107, 53, 0.3);
+        }
+        
+        .hero h1 {
+            margin-bottom: 1rem;
+        }
+        
+        .hero .pain {
+            color: var(--accent-red);
+            display: block;
+        }
+        
+        .hero .alchemy {
+            color: var(--accent-gold);
+            display: block;
+            margin-top: -0.5rem;
+        }
+        
+        .hero-subtitle {
+            color: rgba(255, 255, 255, 0.9);
+            margin-bottom: 1.5rem;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .hero-tagline {
+            font-family: var(--font-mono);
+            font-size: clamp(1rem, 2.5vw, 1.25rem);
+            font-weight: 600;
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+        
+        .tagline-pain { 
+            color: var(--accent-red);
+            display: block;
+        }
+        .tagline-suffering { 
+            color: var(--accent-gold);
+            display: block;
+        }
+        .tagline-transform { 
+            color: var(--accent-green);
+            display: block;
+        }
+        
+        /* Book Mockup */
+        .book-preview {
+            margin: 2rem 0;
+            position: relative;
+        }
+        
+        .book-mockup {
+            width: 300px;
+            height: 400px;
+            margin: 0 auto;
+            position: relative;
+            transform: perspective(1000px) rotateY(-15deg);
+            transition: transform 0.3s ease;
+        }
+        
+        .book-mockup:hover {
+            transform: perspective(1000px) rotateY(-10deg) scale(1.05);
+        }
+        
+        .book-cover {
+            width: 100%;
+            height: 100%;
+            background: var(--gradient-hero);
+            border-radius: 15px;
+            position: relative;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 40px 30px;
+            text-align: center;
+        }
+        
+        .book-spine {
+            position: absolute;
+            left: -15px;
+            top: 0;
+            width: 15px;
+            height: 100%;
+            background: linear-gradient(180deg, #1a2639, #132f4c);
+            border-radius: 15px 0 0 15px;
+        }
+        
+        .book-title {
+            font-size: 2.2rem;
+            font-weight: 800;
+            color: var(--accent-red);
+            text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+            text-transform: uppercase;
+        }
+        
+        .book-subtitle {
+            font-size: 1rem;
+            color: var(--accent-gold);
+            opacity: 0.9;
+            line-height: 1.4;
+            margin-top: auto;
+        }
+        
+        .book-author {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--white);
+            margin-top: 20px;
+        }
+        
+        /* CTA Buttons */
+        .cta-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 2rem 0;
+        }
+        
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            transition: left 0.5s;
+        }
+        
+        .btn:hover::before {
+            left: 100%;
+        }
+        
+        .btn-primary {
+            background: var(--gradient-cta);
+            color: var(--white);
+            box-shadow: 0 8px 25px rgba(255, 107, 53, 0.3);
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 35px rgba(255, 107, 53, 0.4);
+            color: var(--white);
+        }
+        
+        .btn-secondary {
+            background: transparent;
+            color: var(--accent-gold);
+            border: 2px solid var(--accent-gold);
+        }
+        
+        .btn-secondary:hover {
+            background: var(--accent-gold);
+            color: var(--primary-dark);
+        }
+        
+        .btn-large {
+            font-size: 1.3rem;
+            padding: 1.25rem 2.5rem;
+        }
+        
+        /* Value Proposition */
+        .value-prop {
+            padding: 5rem 0;
+            background: var(--gray-50);
+        }
+        
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            color: var(--primary-dark);
+        }
+        
+        .section-subtitle {
+            text-align: center;
+            font-size: 1.2rem;
+            color: var(--gray-600);
+            max-width: 800px;
+            margin: 0 auto 3rem;
+        }
+        
+        .value-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .value-card {
+            background: var(--white);
+            padding: 2.5rem;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: all 0.3s ease;
+            border: 1px solid var(--gray-200);
+        }
+        
+        .value-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 50px rgba(0,0,0,0.15);
+        }
+        
+        .value-icon {
+            width: 80px;
+            height: 80px;
+            background: var(--gradient-cta);
+            border-radius: 50%;
+            margin: 0 auto 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            color: var(--white);
+        }
+        
+        .value-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--primary-dark);
+        }
+        
+        .value-card p {
+            color: var(--gray-600);
+            line-height: 1.6;
+        }
+        
+        /* Pre-order Incentives */
+        .incentives {
+            padding: 5rem 0;
+            background: var(--gradient-hero);
+            color: var(--white);
+        }
+        
+        .incentives .section-title,
+        .incentives .section-subtitle {
+            color: var(--white);
+        }
+        
+        .incentives-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .incentive-card {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 2.5rem;
+            border-radius: 20px;
+            border: 1px solid rgba(255, 107, 53, 0.3);
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+        }
+        
+        .incentive-card:hover {
+            transform: translateY(-5px);
+            border-color: rgba(255, 107, 53, 0.5);
+            background: rgba(255, 255, 255, 0.15);
+        }
+        
+        .incentive-badge {
+            background: var(--accent-orange);
+            color: var(--white);
+            padding: 0.5rem 1rem;
+            border-radius: 25px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            display: inline-block;
+            margin-bottom: 1.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .incentive-card h3 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            color: var(--white);
+        }
+        
+        .incentive-description {
+            margin-bottom: 1.5rem;
+            color: rgba(255, 255, 255, 0.9);
+            line-height: 1.6;
+        }
+        
+        .incentive-features {
+            list-style: none;
+            margin-bottom: 1.5rem;
+        }
+        
+        .incentive-features li {
+            padding: 0.5rem 0;
+            color: rgba(255, 255, 255, 0.9);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .incentive-features li::before {
+            content: '✓';
+            color: var(--accent-green);
+            font-weight: bold;
+        }
+        
+        .price-info {
+            margin-top: 1.5rem;
+        }
+        
+        .original-price {
+            text-decoration: line-through;
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 0.95rem;
+            display: block;
+        }
+        
+        .discount-price {
+            color: var(--accent-orange);
+            font-size: 1.8rem;
+            font-weight: 700;
+            display: block;
+        }
+        
+        /* Newsletter Signup */
+        .newsletter-signup {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 1.5rem;
+            border-radius: 15px;
+            margin-top: 1.5rem;
+        }
+        
+        .newsletter-signup h4 {
+            margin-bottom: 1rem;
+            color: var(--white);
+        }
+        
+        .newsletter-form {
+            display: flex;
+            gap: 0.75rem;
+            margin-bottom: 0.75rem;
+        }
+        
+        .newsletter-form input {
+            flex: 1;
+            padding: 0.75rem 1rem;
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            border-radius: 25px;
+            font-size: 1rem;
+            background: rgba(255, 255, 255, 0.1);
+            color: var(--white);
+        }
+        
+        .newsletter-form input::placeholder {
+            color: rgba(255, 255, 255, 0.7);
+        }
+        
+        .newsletter-form input:focus {
+            outline: none;
+            border-color: var(--accent-orange);
+            background: rgba(255, 255, 255, 0.15);
+        }
+        
+        .newsletter-form button {
+            padding: 0.75rem 1.5rem;
+            background: var(--accent-orange);
+            color: var(--white);
+            border: none;
+            border-radius: 25px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            white-space: nowrap;
+        }
+        
+        .newsletter-form button:hover {
+            background: #e55a2b;
+            transform: translateY(-2px);
+        }
+        
+        .newsletter-note {
+            font-size: 0.875rem;
+            color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+        }
+        
+        /* Table of Contents */
+        .toc {
+            padding: 5rem 0;
+            background: var(--white);
+        }
+        
+        .toc-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .toc-section {
+            background: var(--gray-50);
+            padding: 2rem;
+            border-radius: 20px;
+            border-left: 5px solid var(--accent-orange);
+            transition: all 0.3s ease;
+        }
+        
+        .toc-section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .toc-section h3 {
+            color: var(--primary-dark);
+            margin-bottom: 1.5rem;
+            font-size: 1.3rem;
+        }
+        
+        .chapter-list {
+            list-style: none;
+        }
+        
+        .chapter-list li {
+            padding: 0.75rem 0;
+            border-bottom: 1px solid var(--gray-200);
+            display: flex;
+            align-items: center;
+            transition: all 0.3s ease;
+        }
+        
+        .chapter-list li:hover {
+            background: rgba(255, 107, 53, 0.05);
+            padding-left: 10px;
+        }
+        
+        .chapter-list li:last-child {
+            border-bottom: none;
+        }
+        
+        .chapter-number {
+            background: var(--accent-orange);
+            color: var(--white);
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            margin-right: 1rem;
+            font-size: 0.875rem;
+            flex-shrink: 0;
+        }
+        
+        /* Author Section */
+        .author {
+            padding: 5rem 0;
+            background: var(--gray-50);
+        }
+        
+        .author-content {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 4rem;
+            align-items: center;
+        }
+        
+        .author-image-container {
+            text-align: center;
+        }
+        
+        .author-image {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            background: var(--gradient-cta);
+            margin: 0 auto 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 4rem;
+            color: var(--white);
+            font-weight: 800;
+            box-shadow: 0 20px 50px rgba(255, 107, 53, 0.3);
+        }
+        
+        .author-credentials {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+        
+        .author-credentials span {
+            background: var(--white);
+            color: var(--accent-orange);
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            border: 1px solid var(--accent-orange);
+        }
+        
+        .author-info h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            color: var(--primary-dark);
+        }
+        
+        .author-intro {
+            font-size: 1.2rem;
+            margin-bottom: 1.5rem;
+            color: var(--gray-600);
+            font-weight: 500;
+        }
+        
+        .author-info p {
+            margin-bottom: 1.5rem;
+            color: var(--gray-600);
+            line-height: 1.7;
+        }
+        
+        .author-stats {
+            display: flex;
+            gap: 2rem;
+            margin: 2rem 0;
+            flex-wrap: wrap;
+        }
+        
+        .stat {
+            text-align: center;
+        }
+        
+        .stat-number {
+            display: block;
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--accent-orange);
+        }
+        
+        .stat-label {
+            font-size: 0.875rem;
+            color: var(--gray-600);
+            font-weight: 500;
+        }
+        
+        /* Testimonials */
+        .testimonials {
+            padding: 5rem 0;
+            background: var(--white);
+        }
+        
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .testimonial {
+            background: var(--gray-50);
+            padding: 2rem;
+            border-radius: 20px;
+            position: relative;
+            transition: all 0.3s ease;
+            border: 1px solid var(--gray-200);
+            border-left: 4px solid var(--accent-gold);
+        }
+        
+        .testimonial:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+        }
+        
+        .testimonial::before {
+            content: '"';
+            font-size: 4rem;
+            color: var(--accent-orange);
+            position: absolute;
+            top: -10px;
+            left: 20px;
+            font-family: serif;
+            opacity: 0.3;
+        }
+        
+        .testimonial-rating {
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+        
+        .testimonial-text {
+            margin-bottom: 1.5rem;
+            font-style: italic;
+            color: var(--gray-700);
+            line-height: 1.6;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .testimonial-author {
+            display: flex;
+            flex-direction: column;
+            gap: 0.25rem;
+        }
+        
+        .testimonial-author strong {
+            color: var(--accent-orange);
+            font-weight: 600;
+        }
+        
+        .testimonial-author span {
+            color: var(--gray-600);
+            font-size: 0.875rem;
+        }
+        
+        /* FAQ */
+        .faq {
+            padding: 5rem 0;
+            background: var(--gray-50);
+        }
+        
+        .faq-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .faq-item {
+            background: var(--white);
+            margin-bottom: 1.5rem;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .faq-item:hover {
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+        }
+        
+        .faq-question {
+            padding: 1.5rem;
+            background: var(--accent-orange);
+            color: var(--white);
+            font-weight: 600;
+            cursor: pointer;
+            position: relative;
+            transition: all 0.3s ease;
+        }
+        
+        .faq-question:hover {
+            background: #e55a2b;
+        }
+        
+        .faq-question::after {
+            content: '+';
+            position: absolute;
+            right: 1.5rem;
+            font-size: 1.5rem;
+            transition: transform 0.3s ease;
+        }
+        
+        .faq-question.active::after {
+            transform: rotate(45deg);
+        }
+        
+        .faq-answer {
+            padding: 0 1.5rem;
+            max-height: 0;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            color: var(--gray-600);
+            line-height: 1.6;
+        }
+        
+        .faq-answer.active {
+            padding: 1.5rem;
+            max-height: 200px;
+        }
+        
+        /* Social Proof */
+        .social-proof {
+            padding: 4rem 0;
+            background: var(--white);
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .stat-card {
+            text-align: center;
+            padding: 2rem;
+            background: var(--gray-50);
+            border-radius: 20px;
+            transition: all 0.3s ease;
+            border: 1px solid var(--gray-200);
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .stat-card .stat-number {
+            font-size: 3rem;
+            font-weight: 800;
+            color: var(--accent-orange);
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        
+        .stat-card .stat-label {
+            color: var(--gray-600);
+            font-weight: 500;
+        }
+        
+        /* Final CTA */
+        .final-cta {
+            background: var(--gradient-cta);
+            padding: 5rem 0;
+            text-align: center;
+            color: var(--white);
+        }
+        
+        .cta-content h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            font-weight: 800;
+        }
+        
+        .cta-content p {
+            font-size: 1.2rem;
+            margin-bottom: 2.5rem;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.6;
+        }
+        
+        .cta-offer {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 2.5rem;
+            border-radius: 20px;
+            max-width: 500px;
+            margin: 0 auto 2rem;
+            backdrop-filter: blur(10px);
+        }
+        
+        .offer-details {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+        }
+        
+        .offer-price {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: var(--white);
+        }
+        
+        .offer-original {
+            font-size: 1.2rem;
+            text-decoration: line-through;
+            color: rgba(255, 255, 255, 0.7);
+        }
+        
+        .offer-savings {
+            background: var(--white);
+            color: var(--accent-orange);
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-weight: 700;
+            font-size: 0.875rem;
+        }
+        
+        .offer-includes p {
+            font-size: 0.95rem;
+            color: rgba(255, 255, 255, 0.9);
+            margin: 0;
+        }
+        
+        .urgency-message {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 1.5rem;
+            border-radius: 15px;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        
+        .urgency-message p {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin: 0;
+        }
+        
+        .urgency-message span {
+            color: var(--accent-gold);
+            font-weight: 800;
+        }
+        
+        /* Footer */
+        .footer {
+            background: var(--primary-dark);
+            color: var(--white);
+            padding: 4rem 0 2rem;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2.5rem;
+            margin-bottom: 2.5rem;
+        }
+        
+        .footer-section h3,
+        .footer-section h4 {
+            margin-bottom: 1.5rem;
+            color: var(--accent-orange);
+        }
+        
+        .footer-section p {
+            color: rgba(255, 255, 255, 0.8);
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+        }
+        
+        .footer-section ul {
+            list-style: none;
+        }
+        
+        .footer-section ul li {
+            margin-bottom: 0.75rem;
+        }
+        
+        .footer-section ul li a {
+            color: rgba(255, 255, 255, 0.8);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        .footer-section ul li a:hover {
+            color: var(--accent-orange);
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 1rem;
+        }
+        
+        .social-links a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.1);
+            color: var(--white);
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        
+        .social-links a:hover {
+            background: var(--accent-orange);
+            transform: translateY(-3px);
+        }
+        
+        .footer-newsletter {
+            display: flex;
+            gap: 0.75rem;
+            margin-top: 1rem;
+        }
+        
+        .footer-newsletter input {
+            flex: 1;
+            padding: 0.75rem 1rem;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 25px;
+            background: rgba(255, 255, 255, 0.1);
+            color: var(--white);
+            font-size: 0.875rem;
+        }
+        
+        .footer-newsletter input::placeholder {
+            color: rgba(255, 255, 255, 0.6);
+        }
+        
+        .footer-newsletter button {
+            padding: 0.75rem 1.5rem;
+            background: var(--accent-orange);
+            color: var(--white);
+            border: none;
+            border-radius: 25px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .footer-newsletter button:hover {
+            background: #e55a2b;
+        }
+        
+        .footer-bottom {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 0.875rem;
+        }
+        
+        .cta-center {
+            text-align: center;
+            margin-top: 3rem;
+        }
+        
+        .guarantee-text {
+            margin-top: 1rem;
+            font-size: 0.875rem;
+            color: rgba(255, 255, 255, 0.8);
+        }
+        
+        /* Chapter Preview */
+        .chapter-preview {
+            margin-top: 3rem;
+            text-align: center;
+        }
+        
+        .preview-card {
+            background: var(--gray-50);
+            padding: 2.5rem;
+            border-radius: 20px;
+            max-width: 600px;
+            margin: 2rem auto 0;
+            border: 1px solid var(--gray-200);
+        }
+        
+        .preview-card h4 {
+            color: var(--primary-dark);
+            margin-bottom: 1.5rem;
+            font-size: 1.3rem;
+        }
+        
+        .preview-card p {
+            color: var(--gray-600);
+            font-style: italic;
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+        }
+        
+        /* Animations */
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .fade-in-up {
+            animation: fadeInUp 0.8s ease-out;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero {
+                padding: 4rem 0 3rem;
+            }
+            
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .hero .subtitle {
+                font-size: 1.2rem;
+            }
+            
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .author-content {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+            
+            .header-content {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            
+            .incentives-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .newsletter-form {
+                flex-direction: column;
+            }
+            
+            .author-stats {
+                justify-content: center;
+            }
+            
+            .offer-details {
+                flex-direction: column;
+                gap: 0.75rem;
+            }
+            
+            .section-title {
+                font-size: 2rem;
+            }
+            
+            .book-mockup {
+                width: 250px;
+                height: 330px;
+            }
+            
+            .book-title {
+                font-size: 1.8rem;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .container {
+                padding: 0 1rem;
+            }
+            
+            .hero {
+                padding: 3rem 0 2rem;
+            }
+            
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .section-title {
+                font-size: 1.8rem;
+            }
+            
+            .value-card,
+            .incentive-card,
+            .testimonial {
+                padding: 1.5rem;
+            }
+            
+            .btn {
+                padding: 0.875rem 1.5rem;
+                font-size: 0.95rem;
+            }
+            
+            .btn-large {
+                padding: 1rem 2rem;
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <span class="pain">Pain</span><span class="alchemy">Alchemy</span>
+                </div>
+                <div class="countdown-timer">
+                    <i class="fas fa-clock"></i>
+                    Book Launch in <span id="countdown">25 days</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content fade-in-up">
+                <div class="hero-badge">
+                    <i class="fas fa-rocket"></i> Pre-Order Now & Save 35%
+                </div>
+                <h1 class="display-1">
+                    <span class="pain">Pain</span>
+                    <span class="alchemy">Alchemy</span>
+                </h1>
+                <p class="hero-subtitle subtitle">
+                    An Engineer's Mindset for Turning Life's Setbacks into Power
+                </p>
+                <div class="hero-tagline">
+                    <span class="tagline-pain">Transform your pain into power.</span>
+                    <span class="tagline-suffering">Convert suffering into strength.</span>
+                    <span class="tagline-transform">Engineer your comeback.</span>
+                </div>
+                
+                <div class="book-preview">
+                    <div class="book-mockup">
+                        <div class="book-spine"></div>
+                        <div class="book-cover">
+                            <div class="book-title">PAIN<br>ALCHEMY</div>
+                            <div class="book-subtitle">An Engineer's Mindset for Turning Life's Setbacks into Power</div>
+                            <div class="book-author">KIMAL HONS</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="cta-buttons">
+                    <a href="#preorder" class="btn btn-primary btn-large">
+                        <i class="fas fa-shopping-cart"></i>
+                        Pre-Order Now - $19.99
+                    </a>
+                    <a href="#preview" class="btn btn-secondary">
+                        <i class="fas fa-book-open"></i>
+                        Read Free Chapter
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Value Proposition -->
+    <section class="value-prop">
+        <div class="container">
+            <h2 class="section-title">Why Pain Alchemy Works</h2>
+            <p class="section-subtitle">
+                Unlike traditional self-help approaches, Pain Alchemy uses engineering methodologies to create systematic, 
+                repeatable processes for personal transformation.
+            </p>
+            <div class="value-grid">
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Engineering Approach</h3>
+                    <p>Apply proven engineering principles like failure analysis, stress testing, and system optimization to your personal growth journey.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Systematic Transformation</h3>
+                    <p>Follow step-by-step processes that turn emotional pain into measurable progress and lasting change.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Practical Tools</h3>
+                    <p>Get actionable frameworks, worksheets, and methodologies you can implement immediately in your life.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pre-order Incentives -->
+    <section class="incentives" id="preorder">
+        <div class="container">
+            <h2 class="section-title">Exclusive Pre-Order Bonuses</h2>
+            <p class="section-subtitle">
+                Pre-order now and get these exclusive bonuses worth over $500
+            </p>
+            <div class="incentives-grid">
+                <div class="incentive-card">
+                    <div class="incentive-badge">35% OFF - Limited Time</div>
+                    <h3><i class="fas fa-graduation-cap"></i> Pain Alchemy Masterclass</h3>
+                    <p class="incentive-description">
+                        Join the exclusive masterclass where you'll learn advanced techniques and get personalized guidance 
+                        on applying Pain Alchemy principles to your specific challenges.
+                    </p>
+                    <ul class="incentive-features">
+                        <li>8-week intensive program</li>
+                        <li>Live Q&A sessions with the author</li>
+                        <li>Exclusive worksheets and tools</li>
+                        <li>Private community access</li>
+                        <li>Lifetime access to recordings</li>
+                        <li>Personalized feedback on your progress</li>
+                    </ul>
+                    <div class="price-info">
+                        <span class="original-price">Regular Price: $299</span>
+                        <span class="discount-price">Your Price: $194</span>
+                    </div>
+                </div>
+                <div class="incentive-card">
+                    <div class="incentive-badge">FREE BONUS</div>
+                    <h3><i class="fas fa-envelope"></i> Weekly Growth Newsletter</h3>
+                    <p class="incentive-description">
+                        Get weekly insights, motivation, and practical tips delivered directly to your inbox. 
+                        Stay motivated and continue your transformation journey.
+                    </p>
+                    <ul class="incentive-features">
+                        <li>Weekly motivation and insights</li>
+                        <li>Exclusive content not in the book</li>
+                        <li>Success stories from readers</li>
+                        <li>Early access to new content</li>
+                        <li>Monthly live Q&A sessions</li>
+                        <li>Community challenges and exercises</li>
+                    </ul>
+                    <div class="newsletter-signup">
+                        <h4>Join the Newsletter Now</h4>
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="Enter your email address" required>
+                            <button type="submit">Subscribe Free</button>
+                        </form>
+                        <p class="newsletter-note">Join 10,000+ subscribers already transforming their lives</p>
+                    </div>
+                </div>
+            </div>
+            <div class="cta-center">
+                <a href="#" class="btn btn-primary btn-large">
+                    <i class="fas fa-shopping-cart"></i>
+                    Pre-Order Now - Only $19.99 (Reg. $29.99)
+                </a>
+                <p class="guarantee-text">30-day money-back guarantee • Instant digital delivery</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Table of Contents -->
+    <section class="toc" id="preview">
+        <div class="container">
+            <h2 class="section-title">What You'll Learn</h2>
+            <p class="section-subtitle">
+                22 comprehensive chapters covering every aspect of personal transformation through engineering principles
+            </p>
+            <div class="toc-grid">
+                <div class="toc-section">
+                    <h3>Foundation Chapters</h3>
+                    <ul class="chapter-list">
+                        <li><span class="chapter-number">P</span>Preface: The Engineering Mindset</li>
+                        <li><span class="chapter-number">I</span>Introduction: Your Personal Operating System</li>
+                        <li><span class="chapter-number">1</span>Failure Analysis: Learning from Setbacks</li>
+                        <li><span class="chapter-number">2</span>Stress Testing Your Life</li>
+                        <li><span class="chapter-number">3</span>Materials Science of Personal Growth</li>
+                        <li><span class="chapter-number">4</span>Thermodynamics of Change</li>
+                    </ul>
+                </div>
+                <div class="toc-section">
+                    <h3>Core Transformation</h3>
+                    <ul class="chapter-list">
+                        <li><span class="chapter-number">5</span>Control Systems for Emotions</li>
+                        <li><span class="chapter-number">6</span>System Dynamics in Relationships</li>
+                        <li><span class="chapter-number">7</span>Project Management for Life</li>
+                        <li><span class="chapter-number">8</span>Quality Control and Continuous Improvement</li>
+                        <li><span class="chapter-number">9</span>Narrative Engineering</li>
+                        <li><span class="chapter-number">10</span>Agile Methodology for Personal Growth</li>
+                    </ul>
+                </div>
+                <div class="toc-section">
+                    <h3>Advanced Applications</h3>
+                    <ul class="chapter-list">
+                        <li><span class="chapter-number">11</span>Supply Chain Management for Success</li>
+                        <li><span class="chapter-number">12</span>Risk Assessment and Mitigation</li>
+                        <li><span class="chapter-number">13</span>Performance Optimization</li>
+                        <li><span class="chapter-number">14</span>Systems Integration</li>
+                        <li><span class="chapter-number">15</span>Scalability and Growth</li>
+                        <li><span class="chapter-number">16</span>Maintenance and Sustainability</li>
+                    </ul>
+                </div>
+                <div class="toc-section">
+                    <h3>Mastery & Integration</h3>
+                    <ul class="chapter-list">
+                        <li><span class="chapter-number">17</span>Innovation and Adaptation</li>
+                        <li><span class="chapter-number">18</span>Legacy and Impact</li>
+                        <li><span class="chapter-number">20</span>Reinvention Engineering</li>
+                        <li><span class="chapter-number">C</span>Conclusion: Your Transformation Blueprint</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="chapter-preview">
+                <h3>Free Chapter Preview</h3>
+                <div class="preview-card">
+                    <h4>Chapter 1: Failure Analysis - Learning from Setbacks</h4>
+                    <p>"Every failure contains within it the seeds of future success, but only if we know how to extract and cultivate them. In engineering, we don't fear failure—we study it, learn from it, and use it to build better systems..."</p>
+                    <a href="#" class="btn btn-secondary">
+                        <i class="fas fa-download"></i>
+                        Download Free Chapter
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Author Section -->
+    <section class="author">
+        <div class="container">
+            <div class="author-content">
+                <div class="author-image-container">
+                    <div class="author-image">KH</div>
+                    <div class="author-credentials">
+                        <span>Engineer</span>
+                        <span>Entrepreneur</span>
+                        <span>Author</span>
+                    </div>
+                </div>
+                <div class="author-info">
+                    <h2>About Kimal Hons</h2>
+                    <p class="author-intro">
+                        Kimal Hons is an engineer, entrepreneur, and transformation expert who has spent over a decade 
+                        applying engineering principles to personal development and business growth.
+                    </p>
+                    <p>
+                        After experiencing his own series of professional and personal setbacks, Kimal developed the 
+                        Pain Alchemy methodology by combining his engineering background with psychology, neuroscience, 
+                        and behavioral change principles.
+                    </p>
+                    <p>
+                        His systematic approach has helped thousands of individuals and organizations transform their 
+                        biggest challenges into their greatest opportunities for growth.
+                    </p>
+                    <div class="author-stats">
+                        <div class="stat">
+                            <span class="stat-number">10,000+</span>
+                            <span class="stat-label">Lives Transformed</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">Companies Helped</span>
+                        </div>
+                    </div>
+                    <a href="https://kimhons.info" target="_blank" class="btn btn-secondary">
+                        <i class="fas fa-external-link-alt"></i>
+                        Learn More About Kimal
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Early Readers Are Saying</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial">
+                    <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">
+                        "Pain Alchemy completely changed how I approach challenges. The engineering framework makes 
+                        personal growth feel systematic and achievable rather than overwhelming."
+                    </p>
+                    <div class="testimonial-author">
+                        <strong>Sarah M.</strong>
+                        <span>Tech Executive</span>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">
+                        "Finally, a book that treats personal development like the serious discipline it should be. 
+                        The methodologies are practical and the results are measurable."
+                    </p>
+                    <div class="testimonial-author">
+                        <strong>David L.</strong>
+                        <span>Project Manager</span>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">
+                        "I've read dozens of self-help books, but none provided the systematic approach that Pain Alchemy offers. 
+                        It's like having a blueprint for transformation."
+                    </p>
+                    <div class="testimonial-author">
+                        <strong>Maria R.</strong>
+                        <span>Entrepreneur</span>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">
+                        "The engineering approach to personal growth is revolutionary. I've seen more progress in 3 months 
+                        than I did in 3 years of traditional therapy."
+                    </p>
+                    <div class="testimonial-author">
+                        <strong>James K.</strong>
+                        <span>Software Engineer</span>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">
+                        "Kimal's methodology helped me turn my biggest career failure into my greatest success. 
+                        The tools are practical and the results speak for themselves."
+                    </p>
+                    <div class="testimonial-author">
+                        <strong>Lisa T.</strong>
+                        <span>Business Owner</span>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">
+                        "This book doesn't just inspire—it provides a roadmap. Every chapter builds on the last, 
+                        creating a comprehensive system for transformation."
+                    </p>
+                    <div class="testimonial-author">
+                        <strong>Michael P.</strong>
+                        <span>Consultant</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        What makes Pain Alchemy different from other self-help books?
+                    </div>
+                    <div class="faq-answer">
+                        Pain Alchemy applies proven engineering methodologies to personal transformation. Instead of vague advice, 
+                        you get systematic processes, measurable outcomes, and repeatable frameworks that work consistently. 
+                        It's the first book to treat personal development with the same rigor as engineering projects.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        Do I need an engineering background to understand this book?
+                    </div>
+                    <div class="faq-answer">
+                        Not at all! The engineering concepts are explained in simple, accessible language with real-world examples. 
+                        The focus is on practical application, not technical complexity. If you can follow a recipe, you can apply these principles.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        When will the book be available?
+                    </div>
+                    <div class="faq-answer">
+                        The book launches in 25 days. Pre-order customers will receive their digital copies immediately upon release, 
+                        plus instant access to all the exclusive bonuses including the masterclass and newsletter.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        What's included in the masterclass?
+                    </div>
+                    <div class="faq-answer">
+                        The masterclass is an 8-week intensive program featuring live sessions with Kimal, Q&A sessions, 
+                        exclusive worksheets and tools, access to a private community, and lifetime access to all recordings. 
+                        You'll get personalized feedback and support throughout your transformation journey.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        Is there a money-back guarantee?
+                    </div>
+                    <div class="faq-answer">
+                        Yes! We offer a 30-day money-back guarantee. If you're not completely satisfied with the book 
+                        and bonuses, we'll refund your purchase in full, no questions asked.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        How is this different from traditional therapy or coaching?
+                    </div>
+                    <div class="faq-answer">
+                        While therapy and coaching are valuable, Pain Alchemy provides a systematic, self-directed approach 
+                        that you can apply independently. It's designed to complement other forms of support while giving 
+                        you concrete tools and frameworks for ongoing growth.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        What formats will the book be available in?
+                    </div>
+                    <div class="faq-answer">
+                        The book will be available in digital formats (PDF, EPUB) immediately upon release, with print versions 
+                        following shortly after. Audiobook production is currently underway and will be available within 30 days of launch.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof -->
+    <section class="social-proof">
+        <div class="container">
+            <h2 class="section-title">Join Thousands Already Transforming Their Lives</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">10,000+</div>
+                    <div class="stat-label">Newsletter Subscribers</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">2,500+</div>
+                    <div class="stat-label">Pre-Orders</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">98%</div>
+                    <div class="stat-label">Satisfaction Rate</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Success Stories</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Transform Your Setbacks into Comebacks?</h2>
+                <p>
+                    Join thousands of others who are already applying Pain Alchemy principles to create extraordinary results from ordinary challenges.
+                </p>
+                <div class="cta-offer">
+                    <div class="offer-details">
+                        <span class="offer-price">$19.99</span>
+                        <span class="offer-original">$29.99</span>
+                        <span class="offer-savings">Save 35%</span>
+                    </div>
+                    <a href="#" class="btn btn-primary btn-large">
+                        <i class="fas fa-shopping-cart"></i>
+                        Pre-Order Now & Get Instant Access
+                    </a>
+                    <div class="offer-includes">
+                        <p>✅ Digital book (PDF + EPUB) ✅ 35% off masterclass ✅ Weekly newsletter ✅ 30-day guarantee</p>
+                    </div>
+                </div>
+                <div class="urgency-message">
+                    <p>⏰ Pre-order pricing ends in <span id="countdown-final">25 days</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Pain Alchemy</h3>
+                    <p>Transform your setbacks into comebacks with systematic engineering principles for personal growth.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#preorder">Pre-Order</a></li>
+                        <li><a href="#preview">Table of Contents</a></li>
+                        <li><a href="#" target="_blank">Free Chapter</a></li>
+                        <li><a href="https://kimhons.info" target="_blank">Author</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Stay Connected</h4>
+                    <p>Get weekly insights and updates</p>
+                    <form class="footer-newsletter">
+                        <input type="email" placeholder="Your email">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Pain Alchemy. All rights reserved. | Transform your setbacks into comebacks.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Countdown Timer
+        function updateCountdown() {
+            const launchDate = new Date();
+            launchDate.setDate(launchDate.getDate() + 25);
+            
+            const now = new Date();
+            const timeLeft = launchDate - now;
+            
+            const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            
+            const countdownText = `${days} days, ${hours} hours`;
+            
+            // Update all countdown elements
+            const countdownElements = document.querySelectorAll('#countdown, #countdown-final');
+            countdownElements.forEach(element => {
+                if (element) {
+                    element.textContent = countdownText;
+                }
+            });
+        }
+        
+        // Update immediately and then every hour
+        updateCountdown();
+        setInterval(updateCountdown, 3600000);
+
+        // FAQ Toggle
+        function toggleFAQ(element) {
+            const answer = element.nextElementSibling;
+            const isActive = element.classList.contains('active');
+            
+            // Close all FAQ answers
+            document.querySelectorAll('.faq-question').forEach(q => {
+                q.classList.remove('active');
+                q.nextElementSibling.classList.remove('active');
+            });
+            
+            // If this wasn't active, open it
+            if (!isActive) {
+                element.classList.add('active');
+                answer.classList.add('active');
+            }
+        }
+
+        // Newsletter Signup
+        document.querySelectorAll('.newsletter-form, .footer-newsletter').forEach(form => {
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                const emailInput = this.querySelector('input[type="email"]');
+                const submitButton = this.querySelector('button[type="submit"]');
+                const email = emailInput.value.trim();
+                
+                if (!isValidEmail(email)) {
+                    showMessage('Please enter a valid email address.', 'error');
+                    return;
+                }
+                
+                // Disable button and show loading state
+                submitButton.disabled = true;
+                const originalText = submitButton.textContent;
+                submitButton.textContent = 'Subscribing...';
+                
+                // Simulate API call
+                setTimeout(() => {
+                    showMessage('Thank you for subscribing! You\'ll receive weekly insights and updates.', 'success');
+                    emailInput.value = '';
+                    submitButton.disabled = false;
+                    submitButton.textContent = originalText;
+                }, 1500);
+            });
+        });
+
+        // Email validation
+        function isValidEmail(email) {
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return emailRegex.test(email);
+        }
+
+        // Show messages to user
+        function showMessage(message, type = 'info') {
+            // Remove existing messages
+            const existingMessages = document.querySelectorAll('.message-popup');
+            existingMessages.forEach(msg => msg.remove());
+            
+            // Create new message
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message-popup message-${type}`;
+            messageDiv.textContent = message;
+            
+            // Style the message
+            Object.assign(messageDiv.style, {
+                position: 'fixed',
+                top: '20px',
+                right: '20px',
+                padding: '15px 25px',
+                borderRadius: '10px',
+                color: 'white',
+                fontWeight: '600',
+                zIndex: '1000',
+                maxWidth: '400px',
+                boxShadow: '0 10px 30px rgba(0,0,0,0.3)',
+                transform: 'translateX(100%)',
+                transition: 'transform 0.3s ease'
+            });
+            
+            // Set background color based on type
+            if (type === 'success') {
+                messageDiv.style.background = 'linear-gradient(45deg, #28a745, #20c997)';
+            } else if (type === 'error') {
+                messageDiv.style.background = 'linear-gradient(45deg, #dc3545, #fd7e14)';
+            } else {
+                messageDiv.style.background = 'linear-gradient(45deg, #ff6b35, #f7931e)';
+            }
+            
+            document.body.appendChild(messageDiv);
+            
+            // Animate in
+            setTimeout(() => {
+                messageDiv.style.transform = 'translateX(0)';
+            }, 100);
+            
+            // Auto remove after 5 seconds
+            setTimeout(() => {
+                messageDiv.style.transform = 'translateX(100%)';
+                setTimeout(() => {
+                    if (messageDiv.parentNode) {
+                        messageDiv.parentNode.removeChild(messageDiv);
+                    }
+                }, 300);
+            }, 5000);
+        }
+
+        // Smooth Scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                
+                if (target) {
+                    const headerHeight = document.querySelector('.header').offsetHeight;
+                    const targetPosition = target.offsetTop - headerHeight - 20;
+                    
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Animation on Scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                    
+                    // Add stagger effect for grid items
+                    if (entry.target.parentElement.classList.contains('value-grid') ||
+                        entry.target.parentElement.classList.contains('testimonial-grid') ||
+                        entry.target.parentElement.classList.contains('stats-grid')) {
+                        
+                        const siblings = Array.from(entry.target.parentElement.children);
+                        const index = siblings.indexOf(entry.target);
+                        entry.target.style.transitionDelay = `${index * 0.1}s`;
+                    }
+                }
+            });
+        }, observerOptions);
+
+        // Observe elements for animation
+        const animatedElements = document.querySelectorAll(`
+            .value-card, 
+            .incentive-card, 
+            .testimonial, 
+            .toc-section, 
+            .stat-card,
+            .faq-item
+        `);
+        
+        animatedElements.forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = 'all 0.6s ease-out';
+            observer.observe(el);
+        });
+
+        // Scroll progress indicator
+        const progressBar = document.createElement('div');
+        progressBar.style.cssText = `
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 0%;
+            height: 3px;
+            background: linear-gradient(45deg, #ff6b35, #f7931e);
+            z-index: 1001;
+            transition: width 0.1s ease;
+        `;
+        document.body.appendChild(progressBar);
+        
+        window.addEventListener('scroll', function() {
+            const scrolled = (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
+            progressBar.style.width = Math.min(scrolled, 100) + '%';
+        });
+    </script>
+</body>
+</html>
+
